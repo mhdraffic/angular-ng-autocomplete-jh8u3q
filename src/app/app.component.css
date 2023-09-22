@@ -1,0 +1,19 @@
+.ng-autocomplete {
+  width: 100%;
+  max-width: 600px;
+  display: table;
+  margin: 0 auto;
+}
+.parent-denote {
+  font-weight: 900;
+}
+.parent-child-denote::before {
+  content: '--';
+}
+
+.child-denote {
+  font-weight: 700;
+}
+.child-denote::before {
+  content: '-';
+}
